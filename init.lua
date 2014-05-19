@@ -26,7 +26,7 @@ function ds_lb_http_request(server)
     
     if not resp_ok then
         ngx.say("Error: "..resp_code)
-        ngx.say(500)
+        ngx.exit(500)
         return
     end
 
