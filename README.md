@@ -19,6 +19,9 @@ Add the config below to the http seg in nginx.conf:
     lua_need_request_body on;
     init_by_lua_file lua/ds_lb/init.lua;
     
+    resolver 8.8.8.8;
+    resolver_timeout 5s;
+    
 在nginx.conf的location段中添加如下配置：
 
 Add the config below to the location seg in nginx.conf:
