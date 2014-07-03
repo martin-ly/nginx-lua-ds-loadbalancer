@@ -1,9 +1,9 @@
 nginx-lua-ds-loadbalancer
 =========================
 
-一个HTTP负载均衡器，基于liseen/lua-resty-http
+一个HTTP负载均衡器，基于openresty/lua-nginx-module和liseen/lua-resty-http
 
-A http loadbalancer which is based on liseen/lua-resty-http
+A http loadbalancer which is based on openresty/lua-nginx-module and liseen/lua-resty-http
 
 
 将代码放在位于nginx根目录下的lua/ds_lb/下
